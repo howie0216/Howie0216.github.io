@@ -1,6 +1,6 @@
 body {
-    background: rgb(30, 32, 32);
-    color: rgb(45, 45, 45);
+    background: rgb(1, 56, 15);
+    color: rgb(7, 38, 1);
     padding: 10px;
     font-family: fantasy;
 }
@@ -11,7 +11,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(163, 209, 224);
+    background: rgb(4, 38, 1);
    margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -19,7 +19,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(0, 0, 0);
     flex: 1;
     margin: 0;
 }
