@@ -1,5 +1,5 @@
 body {
-    background: rgb(1, 56, 15);
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyI2n4XhBN-VVYpRoG5ngjJ7fqiszJ6PIsPg&s);
     color: rgb(7, 38, 1);
     padding: 10px;
     font-family: fantasy;
@@ -13,13 +13,17 @@ body {
 nav {
     background: rgb(4, 38, 1);
    margin: 0 auto;
+   margin-bottom: 20px;
     display: flex;
     padding: 10px;
+    border: 10px solid green;
+    border-radius: 25px;
+
 }
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(126, 128, 93);
+    color: rgb(1, 148, 35);
     flex: 1;
     margin: 0;
 }
@@ -37,8 +41,9 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(28, 142, 0);
     display: flex;
+    border: 10px solid green;
 }
 .sidebar {
     margin-right: 25px;
@@ -71,7 +76,7 @@ h2, h3 {
 }
 
 #portfolio li {
-    background: #0c4f00a7;
+    background: #f8fff7a7;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -84,4 +89,53 @@ h2, h3 {
 #portfolio a {
     text-decoration: none;
     color: #013c06;
+}
+  /* responsive web design */
+  @media screen and (min-width: 120px) and (max-width: 1080px) {
+    main {
+      height: 100ch;
+      zoom: 1.5;
+      display: grid;
+    }
+
+    h1 {
+      font-size: 44px;
+    }
+
+    h2 {
+      font-size: 42px;
+    }
+
+    h3 {
+      font-size: 36px;
+    }
+
+    #all-contents {
+      height: 100ch;
+      margin: none;
+    }
+
+    a {
+      font-size: 42px;
+    }
+
+    .sidebar {
+      margin-right: 0px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .sidebar-img {
+      width: 100%;
+    }
+
+    p,
+    li {
+      font-size: 24px;
+    }
+
+    .content {
+      align-content: center;
+      justify-content: center;
+    }
 }
