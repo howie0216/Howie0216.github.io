@@ -99,4 +99,5 @@ var collectableList = {
   steve: { image: "images/collectables/steve-head.png" },
   sun: { image: "images/collectables/sun.png" },
   smoke: { image: "images/collectables/smoke.png" },
+  diamonddtm: { image: "images/collectables/diamonddtm.png" },
 };
